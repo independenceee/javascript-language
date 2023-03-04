@@ -1,4 +1,4 @@
-// this: trỏ về đối tượng àm nó đang thuộc về
+// this: trỏ về đối tượng àm nó đang thuộc về -> chi tham chiếu
 
 // trong một phương thức , this tham chiếu tới một đối tượng truy cập
 // phương thức (đối tượng trước dấu .)
@@ -53,9 +53,7 @@ button.onclick = function() {
     console.log(this);
 }
 
-
 // this global -> window
-
 
 function Car(name, color) {
     this.name = name;
@@ -73,7 +71,6 @@ Car.prototype.run = function() {
     }
     test2()
 }
-
 
 // arow function -> không có this
 
