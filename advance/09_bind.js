@@ -106,7 +106,7 @@ const app = (()=> {
 
         init() {
 
-            // context
+            // context: arow không bị sao cả cái khác thì trả về undefined
 
             const _this = this;
 
@@ -129,6 +129,8 @@ const app = (()=> {
 
 app.init();
 
+
+// bind(cái ràng buộc, đối số của hàm , đối số của hàm, ...)
 
 
 
