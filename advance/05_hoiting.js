@@ -30,24 +30,20 @@ function sum (a,b) {
 
 // let
 
-
 {
     console.log(fullName);
     let fullName = "Nguyễn Duy Khánh";
 }
-
 
 // const 
 
 const counter1 = makeCount();
 console.log(counter1);
 
-
 function makeCounter1() {
     let counter = 0;
     return increment;
-
-
+    
     function increment() {
         return counter + 1;
     }
