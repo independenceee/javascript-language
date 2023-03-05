@@ -1,0 +1,3 @@
+// IIFE
+// là hàm private
+// 
