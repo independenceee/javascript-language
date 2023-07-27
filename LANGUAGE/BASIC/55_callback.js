@@ -5,16 +5,14 @@
 // 1. là hàm
 // 2. truyền qua đối số
 
-
-function myFunction (param) {
-    if(typeof param === 'function') {
-        param(123);
-    }
+function myFunction(param) {
+  if (typeof param === "function") {
+    param(123);
+  }
 }
-
 
 function myCallBack(value) {
-    console.log("value: ", value)
+  console.log("value: ", value);
 }
 
-myFunction(myCallBack)
+myFunction(myCallBack);
